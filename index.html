@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>קרן וגל פרויקטים ופיתוחים עסקיים</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #001e3c;
+      color: white;
+      direction: rtl;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      background-color: #001a33;
+    }
+    .logo {
+      height: 50px;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 6rem 2rem 3rem;
+    }
+    .logo-symbol {
+      width: 60px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      color: #ffbe5c;
+      margin-bottom: 1.5rem;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2.8rem;
+      color: #ffbe5c;
+      margin-bottom: 2rem;
+    }
+    .section p {
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      font-size: 1.5rem;
+    }
+    .step-img {
+      max-width: 300px;
+      margin-bottom: 2rem;
+    }
+    .next-button {
+      background-color: #ffbe5c;
+      color: #001e3c;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 2rem;
+    }
+    footer {
+      background-color: #001a33;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="step1.png" alt="לוגו" class="logo" />
+    <nav>
+      <a href="#about">עלינו</a>
+      <a href="#step1">שלבים</a>
+      <a href="#academy">האקדמיה</a>
+      <a href="#contact">צור קשר</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <svg class="logo-symbol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50"><path d="M10,40 Q50,0 90,40" stroke="white" stroke-width="3" fill="none" stroke-dasharray="4,4" /></svg>
+    <h1>קרן וגל פרויקטים ופיתוחים עסקיים</h1>
+    <p>ליווי עסקי מקיף, מדויק ואנושי. איתנו תגיעו מוכנים – מרעיון ועד פתיחה.</p>
+  </div>
+
+  <section class="section" id="about">
+    <h2>עלינו</h2>
+    <p>אנחנו מאמינים בליווי שמבוסס על הקשבה, תכל'ס והנעה לפעולה. לא נאבד אתכם בטבלאות מיותרות – אלא ניקח אתכם צעד צעד אל עסק שעובד באמת.</p>
+    <p style="font-size: 1.6rem; font-weight: bold; color: #ffbe5c;">רוצים להתחיל?</p>
+    <p>בואו נבין צעד צעד מה אנחנו עושים.</p>
+    <button class="next-button" onclick="location.href='#step1'">מתחילים</button>
+  </section>
+
+  <section class="section" id="step1">
+    <img src="step1.png" alt="מר קו מאתר לוקיישן" class="step-img" />
+    <h2>שלב 1: איתור לוקיישן</h2>
+    <p>מחפשים יחד אזור מדויק לפתיחת העסק. בודקים תקציב, קהל ויתרונות תפעוליים – עד שנמצא את המקום הנכון.</p>
+    <button class="next-button" onclick="location.href='#step2'">מצאנו לוקיישן, עכשיו קונספט</button>
+  </section>
+
+  <section class="section" id="step2">
+    <img src="step2.png" alt="מר קו בונה קונספט" class="step-img" />
+    <h2>שלב 2: בניית קונספט</h2>
+    <p>יחד נבנה רעיון מדויק לעסק שלכם – מהאווירה, דרך החזון ועד שפת העיצוב.</p>
+    <button class="next-button" onclick="location.href='#step3'">הלאה לבניית תפריט</button>
+  </section>
+
+  <section class="section" id="step3">
+    <img src="step3.png" alt="מר קו שף בונה תפריט" class="step-img" />
+    <h2>שלב 3: בניית תפריט / הצעת שירות</h2>
+    <p>נבנה הצעת ערך שתמשוך את הלקוחות הנכונים – תפריט מדויק, שירותים מותאמים ומחירים נבונים.</p>
+    <button class="next-button" onclick="location.href='#step4'">הלאה למיתוג</button>
+  </section>
+
+  <section class="section" id="step4">
+    <img src="step4.png" alt="מר קו מעצב גרפי" class="step-img" />
+    <h2>שלב 4: מיתוג ושפה חזותית</h2>
+    <p>ניצור זהות מותג ייחודית – לוגו, צבעים, חומרים, הכלים שיספרו את הסיפור שלכם.</p>
+    <button class="next-button" onclick="location.href='#step5'">הכנות אחרונות</button>
+  </section>
+
+  <section class="section" id="step5">
+    <img src="step5.png" alt="מר קו מכין לפתיחה" class="step-img" />
+    <h2>שלב 5: הכנה לפתיחה</h2>
+    <p>עוברים על הכל – ציוד, ספקים, נראות, תפעול. כל דבר שמוכן מראש שווה זהב.</p>
+    <button class="next-button" onclick="location.href='#final'">פותחים את העסק!</button>
+  </section>
+
+  <section class="section" id="final">
+    <h2>יש עסק!</h2>
+    <p>ברכות – עשיתם את זה. העסק שלכם מוכן לצאת לעולם. אנחנו אתכם גם אחרי.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 קרן וגל פרויקטים ופיתוחים עסקיים
+  </footer>
+</body>
+</html>
